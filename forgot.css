@@ -1,0 +1,29 @@
+.card{
+    width: 600px;
+    height: 350px;
+    border: 5px;
+    border-style: ridge;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+
+.card:hover{
+
+    box-shadow: 5px 10px 10px black;
+    border: color-mix(in oklch longer hue, blue 50%, purple 50%);
+    transition-duration: 3s;
+ 
+}
+
+
+input[type="email"]{
+    position: absolute;
+    left: 15%;
+    top:40%;
+    padding: 20px;
+    width: 375px;
+    border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1
+}
